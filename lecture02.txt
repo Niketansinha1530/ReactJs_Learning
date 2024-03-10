@@ -1,0 +1,82 @@
+for using react we need node.js in our environment.
+
+create react project
+ npx create-react-app 01basicreact and press enter.//take longer time for installation.
+
+node package executer and create-react-app is a software or utility
+
+recommended is vite and Parcel.
+
+to enter inside 01basicreact write cd 01basicreact.
+now check package.json file is shown or not write dir to check.
+
+good way to read any project related to react start with package.json file.
+
+how to run react file
+
+npm run start (package.json file may likha hua hai.)
+
+in norml react project build folder not present to get build folder write npm run build.
+
+in build folder all react  file convert into js and shown inside build folder.
+
+create-react-app is not a good way it is too bulky take longer time to start project so now we vite.
+
+Documentation =https://vitejs.dev/guide/  (to go  back in folder use  cd ..);
+
+start creating project with vite write this
+*************************
+npm create vite@latest;
+*************************
+
+after this console ask for name give name 01vitereact.
+
+then console ask for choose framework now choose React framework and then after console again ask for variant then you choose JavaScript.
+in vite project their is no node_modules folder
+
+to enter inside 01vitereact enter cd 01vitereact.
+to install node_modules write npm install
+
+to run vitereact write 
+npm run dev.
+
+most of time present inside src folder
+
+in 01vitereact enter inside src now delete assets.
+
+now we have only to file 
+1. App.jsx
+2. main.jsx
+
+content inside App.jsx
+(
+    function App() {
+ 
+  return (
+   <h1>Hell React || Niketan Sinha</h1>
+  )
+}
+
+export default App
+)
+
+content inside main.jsx
+(
+    import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+
+)
+
+entry point in react is main.jsx.
+
+<> </> this is known as fragment.
+
+file name always in uppercase so working go smooth.

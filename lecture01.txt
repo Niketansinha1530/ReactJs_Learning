@@ -1,0 +1,62 @@
+Founder of React js is Jordan Walke.
+React was created by Jordan Walke, a software engineer at Meta.
+
+
+-> why to learn React?
+Ans. 
+1. hype,job,trend,build UI
+2. Makes easy to manage & build complex frontend
+
+-> When should I learn React?
+Ans.
+1. After mastering JavaScript
+2. most project don't need react in initial phase
+
+-> why react was created?
+Ans.
+Meta facebook have a problem on their messanger app (fhantom message problem)
+No consistency in UI.
+
+React comes into the picture because js and dom not sync properly (not communicate properly)
+
+(Benifits of react library) states(js) changes consistenclly in React.
+
+-> Don't learn React if:
+Ans. you don't know how js works or Dom works
+
+-> React is a library(*).
+
+framework is strick Django.
+
+React create SPA single page application. load only one time
+
+->Topic to learn
+
+1. Core of React (State or UI manipulation, JSX)
+2. component Reusability
+3. Reusing of component (Props)
+4. How to propagate change(hooks).
+
+-> Additional Addon to React
+ 1. Router (React don't have Router)
+ 2. State Management (React don't have state management)
+ 3. Redux ,Redux toolkit, zustand, context application.
+ 4. class based component
+ 5. legacy code
+ 6. BAAS apps(backend as a service). ex (fire base ,super base they directly give backend).
+
+
+ -> After React 
+
+ 1. React is not a complete solution in most changes(no seo, browser Render  of Js , no routing)
+ 2. Framework (Next JS, Gatsby, Remix).
+
+ React Documentation (react.dev).
+
+ react kay sath react dom for website
+ react kay sath react native for react-native(mobile)
+
+ npm is node package manager
+ npx is node package executer
+
+ vite is bundler of JavaScript.

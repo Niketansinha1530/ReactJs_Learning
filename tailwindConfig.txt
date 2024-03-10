@@ -1,0 +1,38 @@
+1.Step
+
+*******************************************************
+
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+********************************************************
+
+1.Step
+
+In this file add content 
+tailwind.config.js 
+
+********************************************************
+ content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+*********************************************************
+
+2.Step 
+
+In index.css add 
+
+
+*********************************************************
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*********************************************************
+
+
+and then run npm dev

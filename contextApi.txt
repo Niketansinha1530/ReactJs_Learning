@@ -1,0 +1,28 @@
+context api jo hai wo ek solution hai jiski madat se hum props ko harjagha na use karay extra load .
+
+//redux is library which provide stateMangement and Zustand
+//Use for state management
+we use redux and react-redux ,small version is reduxtoolkit(RTK);
+
+attach two images. contextApi and problem.png
+
+most of react application also have state management.
+
+//08miniContext.
+
+every context is provider.
+
+context is providing a variable.
+UserContext is a provider .
+
+context is like a gloabal variable
+
+har context kay sath uska provider banatay hai jo variable provide karta hai.
+
+<UserContext>
+
+<Card>
+<DashBoard />
+</Card>
+
+</UserContext>
