@@ -80,3 +80,21 @@ entry point in react is main.jsx.
 <> </> this is known as fragment.
 
 file name always in uppercase so working go smooth.
+
+
+
+***********************************************
+
+Rect fibre is used to implement the changes from virtual dom to browser dom.
+
+react fibre is a algorithm
+
+
+*Advantages of react fibre
+1. Pause work and come back to it later.
+2. assign priority to different types of work.
+3. reuse previously completed work. 
+4. abort work if it's no longer needed.
+
+
+*******************************************************************************
