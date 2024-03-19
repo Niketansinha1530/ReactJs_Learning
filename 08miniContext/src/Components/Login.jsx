@@ -14,11 +14,13 @@ function Login() {
     <div>
       <h2>Login</h2>
       <input
+        value={username}
         onChange={(e) => SetUsername(e.target.value)}
         type="text"
         placeholder="username"
       />{" "}
       <input
+        value={password}
         onChange={(e) => setpassword(e.target.value)}
         type="password"
         placeholder="Password"
