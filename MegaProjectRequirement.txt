@@ -1,0 +1,21 @@
+
+1. App write(Backend)
+2. React Hook Form(current state view)
+3. Tiny mce  (rich text editor)
+4. React / environment variables
+5. Redux
+6. Tailwind
+7. Html react parser
+
+ npm i appwrite @tinymce/tinymce-react html-react-parser react-hook-form
+
+ .env file always create inside root directory. (root directory not means inside src)
+
+ .env.sample(it just a sample file)
+
+ .env file never push in github because of private data writen
+
+  React kay jo env hottay hai usay aise likhtay hai -> REACT_APP_APPWRITE_URL="test environment"
+ console.log(import.meta.env.VITE_APPWRITE_URL); Accessing through vite.
+
+ vite kay jo env hotay hai usay define karnay kay liya  -> VITE_APPWRITE_URL
